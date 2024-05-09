@@ -45,3 +45,4 @@ public class DragAndDropPage {
         return Integer.parseInt(DROPTARGET.innerText());
     }
 }
+//page

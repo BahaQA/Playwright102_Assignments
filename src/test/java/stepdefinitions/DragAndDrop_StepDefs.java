@@ -29,6 +29,5 @@ public class DragAndDrop_StepDefs {
     public void the_slider_value_should_be(int expectedSliderValue) {
         assertEquals(expectedSliderValue, dragAndDropPage.getSliderValue());
     }
-
-
 }
+//change

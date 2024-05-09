@@ -39,6 +39,4 @@ public class InputForm_StepDefs {
         assertEquals(expectedThanksMessage, inputFormPage.getThanksMessage() );
 
     }
-
-//change
 }

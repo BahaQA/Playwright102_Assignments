@@ -31,6 +31,7 @@ public class DragAndDropPage {
 
         BoundingBox rangeBarBoundingBox = rangeBar.boundingBox();
 
+
         double startX = rangeBarBoundingBox.x + rangeBarBoundingBox.width * 0.15;
         double endX = rangeBarBoundingBox.x + rangeBarBoundingBox.width * 0.93;
         double centerY = rangeBarBoundingBox.y + rangeBarBoundingBox.height / 2;
@@ -45,4 +46,4 @@ public class DragAndDropPage {
         return Integer.parseInt(DROPTARGET.innerText());
     }
 }
-//page
+

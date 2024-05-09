@@ -38,8 +38,4 @@ public class SimpleForm_StepDefs {
     public void should_be_displayed_in_the_right_hand_panel_under_the_your_message_section(String expectedMessageText) {
         assertEquals(expectedMessageText,simpleFormPage.getYourMessage());
     }
-
-    //java
-
-
 }

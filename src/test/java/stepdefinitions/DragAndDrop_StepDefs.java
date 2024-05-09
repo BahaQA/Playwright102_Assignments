@@ -30,4 +30,4 @@ public class DragAndDrop_StepDefs {
         assertEquals(expectedSliderValue, dragAndDropPage.getSliderValue());
     }
 }
-//change
+

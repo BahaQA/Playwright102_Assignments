@@ -6,7 +6,6 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        // Rerun failed tests from rerun.txt file
         features = {"@target/rerun.txt"},
         glue = {"stepdefinitions", "hooks"},
         plugin = {"pretty",

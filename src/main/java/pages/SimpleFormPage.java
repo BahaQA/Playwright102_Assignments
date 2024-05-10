@@ -47,6 +47,8 @@ public class SimpleFormPage {
     }
 
     public String getYourMessage(){
+
+        page.waitForTimeout(1000);
         return this.YOURMESSAGE.innerText();
     }
 
